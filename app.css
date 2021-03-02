@@ -1,0 +1,273 @@
+
+#youtube {
+    color: red;
+}
+
+#discord {
+    color: #4869df;
+}
+
+#youtube:hover {
+    background-color: #fff3e6;
+}
+
+#discord:hover {
+    background-color: #fff3e6;
+}
+
+#logo-image {
+    height: 70px;
+    width: 85px;
+}
+
+@media (min-width: 1000px) {
+    #logo-image {
+       margin-left: 10px;
+    }
+}
+
+#color:hover {
+    color: #ffabe1;
+}
+
+#color {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.learn-more-button {
+    font-family: 'Nunito', sans-serif;
+    padding: 25.0px;
+    padding-top: 10.0px;
+    background-color: #ff75a0;
+    color: white;
+    padding-bottom: 0.6rem;
+    font-size: 1.1rem;
+}
+
+.learn-more-button:hover {
+    color: white;
+}
+
+.learn-more-button::after {
+    text-decoration: none;
+}
+
+.container-bg {
+    background-color: #ffb4b4;
+}
+
+#hero-container .rounded-pill {
+    border-radius: 5.0rem!important;
+    margin-top: 0.2rem;
+    padding-top: 0.5rem;
+}
+
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #272D4E;
+  }
+
+h1, .h1 {
+  font-size: calc(1.37383rem + 1.48598vw);
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+@media (min-width: 1200px) {
+    h1, .h1 {
+      font-size: 3.29832rem;
+    }
+  }
+
+@media (max-width: 414px) {
+    p {
+        font-size: 0.99rem;
+    }    
+}
+
+@media (max-width: 406px) {
+    p {
+        font-size: 0.86rem;
+    }    
+}
+
+
+@media (max-width: 378px) {
+    p {
+        font-size: 0.874rem;
+    }    
+}
+
+@media (max-width: 362px) {
+    p {
+        font-size: 0.774rem;
+    }    
+}
+
+@media (min-width: 1000px) {
+    #top-image {
+        margin-left: 1rem;
+    }
+}
+
+@media(min-width: 1000px){
+    #topo {
+        margin-top: 0;
+        padding-top: 0;
+        padding: 55px;
+    }
+}
+
+
+@media(min-width: 1200px) {
+    .top-container {
+        padding: 4.99899rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    } #hero-container {
+        padding: 9.8rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+
+/* Section - 2 */
+.section-two-container {
+    margin: 44px;
+    margin-top: 0.4rem;
+    background-color: #ffe3ed;
+}
+
+@media (max-width: 390px) {
+    .section-two-container {
+        margin: 11px;
+        margin-top: 0.4rem;
+    }
+    #hero-container .rounded-pill {
+        border-radius: 1.7rem!important;
+    }
+    
+}
+
+@media (min-width: 395px) and (max-width: 415px) {
+    .section-two-container {
+        margin: 20px;
+        margin-top: 0.4rem;
+    }
+    #hero-container .rounded-pill {
+        border-radius: 1.7rem!important;
+    }
+    
+}
+
+
+@media (min-width: 415px) and (max-width: 720px) {
+    .section-two-container {
+        margin: 26px;
+        margin-top: 0.4rem;
+    }
+    #hero-container .rounded-pill {
+        border-radius: 1.7rem!important;
+    }
+    
+}
+
+@media (min-width:751px) and (max-width:783px) {
+    .section-two-container {
+        margin: 3.7rem;
+        margin-top: 0.4rem;
+    } 
+}
+
+@media (min-width:787px) and (max-width:900px) {
+    .section-two-container {
+        margin: 4.3rem;
+        margin-top: 0.4rem;
+    } 
+}
+
+@media (min-width:1700px) {
+    .section-two-container {
+        margin: 5rem;
+    } 
+}
+  
+
+/* section-3 */
+
+/* .section-three-container {
+    background-color: #ff75a0;
+} */
+
+@media (min-width: 700px) {
+    .section-three-heading {
+        margin-left: 25rem;
+        margin-right: 5rem;
+    }
+}
+
+/* #section-3-container {
+    padding: 7rem;
+}
+
+ */
+
+ #section-3-heading {
+     padding: 2rem;
+ }
+
+
+#section-four-container {
+    background-color: #f1e6ff;
+
+}
+
+.footer-heading {
+    font-size: 1.9rem;
+    font-weight: 300;
+    font-family: 'Great Vibes', cursive;
+    color: #272D4E;
+}
+ 
+
+.bi-instagram:hover {
+    color: #FD1D1D;
+}
+
+.bi-instagram::after {
+    text-decoration: none;
+}
+
+.bi-discord:hover {
+    color: #7289DA;
+}
+
+.bi-discord::after {
+    text-decoration: none;
+}
+
+.bi-youtube:hover {
+    color: #FF0000;
+}
+
+.bi-youtube::after {
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .section-2-p {
+        display: none;
+    }
+}
+
